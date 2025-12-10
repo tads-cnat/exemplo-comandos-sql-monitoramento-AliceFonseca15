@@ -1,6 +1,6 @@
-select * from dbo.cidade;
+select concat(nome,'-',estado) as "Cidade_estado" from dbo.cidade;
 
-select * from dbo.localizacao;
+select latitude,longitude from dbo.localizacao;
 
 select * from dbo.tempo;
 
